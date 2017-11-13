@@ -251,7 +251,7 @@ password = ""
 [[maps]]
 name = "osm"
 attribution = "Open Street Map" # map attribution
-center = [-76.275329586789, 39.153492567373, 8.0] # optional center value. part of the TileJSON spec
+center = [21.2292561688563, 45.7534523467679, 11.5] # optional center value. part of the TileJSON spec
 
 	# Country Lines 
 	[[maps.layers]]
@@ -347,12 +347,12 @@ center = [-76.275329586789, 39.153492567373, 8.0] # optional center value. part 
 	min_zoom = 13
 	max_zoom = 20
 
-	# Water Areas
-	[[maps.layers]]
-	name = "water_areas"
-	provider_layer = "osm.water_areas_gen0"
-	min_zoom = 3
-	max_zoom = 9
+#	# Water Areas
+#	[[maps.layers]]
+#	name = "water_areas"
+#	provider_layer = "osm.water_areas_gen0"
+#	min_zoom = 3
+#	max_zoom = 9
 
 	[[maps.layers]]
 	name = "water_areas"
